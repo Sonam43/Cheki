@@ -1,0 +1,65 @@
+.logo {
+    width:8%;
+}
+/* Custom Styles */
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: none;
+    list-style: none;
+    min-width: 150px;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    color: rgb(30, 2, 2);
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: inline-block;
+    border: 1px solid #fdfd72;
+    background: #fdfd72;
+    transition: 1s;
+}
+
+  /* Add some spacing to the footer */
+ /********** Footer CSS Starts **********/  
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/

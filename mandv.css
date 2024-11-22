@@ -1,0 +1,70 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section:nth-child(odd) .image-content {
+    order: -1; /* Reverses order for alternating layout */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section:nth-child(odd) .image-content {
+        order: 0; /* Resets order for mobile */
+    }
+
+    .text-content h2 {
+        font-size: 1.5em;
+    }
+}

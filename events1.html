@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>College Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="website.css">
+  <link rel="stylesheet" href="event1.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <img src="image/logo.png" class="logo">
+      <a class="navbar-brand" href="#">Sherubtse College</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="website.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <li class="dropdown">
+              <a class="nav-link" href="#about">About &#11208;</a>
+              <ul class="dropdown-menu">
+                  <li><a href="mandv.html">Misson & Vision</a></li>
+                  <li><a href="faculty.html">Faculty Profile</a></li>
+                  <li><a href="timeline.html">Timeline</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <li class="dropdown">
+              <a class="nav-link" href="">Academic &#11208;</a>
+              <ul class="dropdown-menu">
+                  <li><a href="admission.html">Admission</a></li>
+                  <li><a href="calender.html">Calendar</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <li class="dropdown">
+              <a class="nav-link" href="#about">Course &#11208;</a>
+              <ul class="dropdown-menu">
+                  <li><a href="course1.html">Bachelors Of Data Science & Data Analytics</a></li>
+                  <li><a href="course2.html">Bachelors Of Economics & Political Science</a></li>
+                  <li><a href="course3.html">Bachelor Of Digital Communication & Project Management</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <li class="dropdown">
+              <a class="nav-link" href="">Student Service &#11208;</a>
+              <ul class="dropdown-menu">
+                <li><a href="https://sites.google.com/view/sherubtselibrary">Library</a></li>
+                <li><a href="games.html">Games & Sports</a></li>
+                <li><a href="club.html">Clubs</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <li class="dropdown">
+              <a class="nav-link" href="">Announcement &#11208;</a>
+              <ul class="dropdown-menu">
+                <li><a href="event.html">Event</a></li>
+                <li><a href="vacancy.html">Vacancy & Announcement</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="econtainer">
+    <div class="event-header">
+     <h1>
+        Sherubtse College Hosts Research Workshop and Guest Lecture on AI, Financial Literacy, and Socio-Political Theories
+     </h1>
+     <div class="event-date">
+        Leave a Comment / By sherubtse / October 4, 2024
+     </div>
+    </div>
+    <div class="event-description">
+     <p>
+        Sherubtse College Hosts Insightful Talks on AI, Financial Literacy, and Socio-Political Theories
+        On September 30, 2024, Sherubtse College hosted a comprehensive research workshop and a series of engaging guest lectures featuring distinguished 
+        speakers from Janki Devi Memorial College, University of Delhi, India. The event, attended by both students and faculty, provided a platform for interdisciplinary discussions on topics ranging from artificial intelligence to literature.
+        Professor Payal Nagpal from the Department of english, conducted a day-long workshop on Manuscript Writing: Research Articles for faculty members and students from the Population and Development Studies program.
+     </p>
+     <p>
+        Dr. Ravindar Meena from the Department of Commerce delivered an insightful presentation on the intersection of artificial intelligence (AI) and financial literacy. He highlighted the increasing role of AI in shaping the financial landscape and its potential to enhance personal financial management and investment strategies.
+     </p>
+     <p>
+        Professor Vasiraju Rajyalaxmi from the Department of Sociology presented a captivating lecture on Marxism and Capitalism. She explored how these two socio-economic ideologies continue to influence contemporary society, sparking debates on class struggle, wealth distribution, and the relevance of Marxist theory in today’s capitalist-driven economy.
+     </p>
+     <p>
+        Mr. Dinesh Ahirao from the Department of Political Science focused on the significance of political science and the constitution in modern governance. He elaborated on the evolution of political theories and their impact on democratic institutions.
+     </p>
+     <p>
+        Rounding off the event, Mr. Tarun from the Department of English provided a thought-provoking discourse on literature, discussing its ability to reflect societal changes and influence cultural movements.
+     </p>
+     <p>
+        The event was a success, fostering active participation from both students and faculty members. The discussions explored how these diverse academic fields intersect in today’s complex global environment, enriching the understanding of attendees.
+     </p>
+    </div>
+    <img alt="event" class="event-photo" height="400" src="image/event.jpg" width="1200"/>
+   </div>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Leave a Comment</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>   
+  <!-- Footer -->
+  <footer>
+    <!---------- Footer HTML Starts --------->
+<div class="footer">
+    <div class="container">
+       <div class="footer-sect">
+          <h2>Best College In Bhutan</h2>
+          <p>Bhutan's oldest higher educational institution, 
+            dedicated to shaping Bhutanese minds and ascending to the peak of learning</p>
+       </div>
+       <div class="footer-sect">
+          <h2>Quick Links</h2>
+          <ul class="footer-menu">
+             <li><a href="website.html"> > Home</a></li>
+             <li><a href="mandv.html"> > About us</a></li>
+             <li><a href="course1.html"> > Course</a></li>
+             <li><a href="admission.html"> > Admission</a></li>
+             <li><a href="Contact.html"> > Contact </a></li>
+          </ul>
+       </div>
+       <div class="footer-sect">
+          <h2>Contact Info</h2>
+          <ul class="footer-contact">
+             <li><b>Email :</b> ict.sherubtse@rub.edu.bt </li>
+             <li><b>Fax :</b> +975-4-535128 </li>
+             <li><b>Website :</b> www.sherubtse.edu.bt/ </li>
+          </ul>
+       </div>
+    </div>
+ </div>
+ <p>&copy; 2024 Sherubtse College. All Rights Reserved.</p>
+ <!---------- Footer HTML Ends --------->
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="website.js"></script>
+</body>
+</html>
